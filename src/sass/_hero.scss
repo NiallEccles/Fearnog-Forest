@@ -6,4 +6,28 @@
     background-size: cover;
     background-color: $primary-color;
     background-blend-mode: multiply;
+    opacity: 0;
+    text-align: center;
+    animation-name: fadeUp;
+    animation-delay: 0.25s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    @keyframes fadeUp {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    &.white {
+        h1,h2,h3,h4,h5,h5,span,p{
+            color:white;
+        }
+    }
+    &.center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    hr{
+        margin: 10px 0px;
+    }
 }

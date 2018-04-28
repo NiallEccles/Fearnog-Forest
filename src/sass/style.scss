@@ -6,7 +6,6 @@
 
 body{
 	color:$primary-color;
-	background: $secondary-color;
 	margin:0;
 	padding:0;
 	font-family: 'Fjalla One', sans-serif;
@@ -14,11 +13,11 @@ body{
 
 ::selection{
 	background:$primary-color;
-	color:$secondary-color;
+	color:white;
 }
 
 ::-moz-selection{
 	background:$primary-color;
-	color:$secondary-color;
+	color:white;
 }
 

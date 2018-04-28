@@ -863,19 +863,39 @@ hr {
   background-attachment: fixed;
   background-size: cover;
   background-color: #1ACA7F;
-  background-blend-mode: multiply; }
+  background-blend-mode: multiply;
+  opacity: 0;
+  text-align: center;
+  animation-name: fadeUp;
+  animation-delay: 0.25s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+  .hero.white h1, .hero.white h2, .hero.white h3, .hero.white h4, .hero.white h5, .hero.white h5, .hero.white span, .hero.white p {
+    color: white; }
+  .hero.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .hero hr {
+    margin: 10px 0px; }
 
 body {
   color: #1ACA7F;
-  background: #1B4041;
   margin: 0;
   padding: 0;
   font-family: 'Fjalla One', sans-serif; }
 
 ::selection {
   background: #1ACA7F;
-  color: #1B4041; }
+  color: white; }
 
 ::-moz-selection {
   background: #1ACA7F;
-  color: #1B4041; }
+  color: white; }
