@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Cantarell|Fjalla+One");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif; }
+
+span, p {
+  font-family: 'Cantarell', sans-serif; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2018 Twitter, Inc.
@@ -856,8 +862,17 @@ hr {
 .affix {
   position: fixed; }
 
+.content {
+  background: #B8D3CB;
+  color: #3F5946;
+  min-height: 200px;
+  padding: 3em 0; }
+  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    text-align: center; }
+
 .hero {
-  height: 70vh;
+  height: 90vh;
+  position: relative;
   background-image: url("../images/tone_forest.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -876,6 +891,8 @@ hr {
     opacity: 0; }
   to {
     opacity: 1; } }
+  .hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6 {
+    text-transform: uppercase; }
   .hero.white h1, .hero.white h2, .hero.white h3, .hero.white h4, .hero.white h5, .hero.white h5, .hero.white span, .hero.white p {
     color: white; }
   .hero.center {
@@ -883,14 +900,20 @@ hr {
     align-items: center;
     justify-content: center;
     flex-direction: column; }
-  .hero hr {
-    margin: 10px 0px; }
+
+.baseline {
+  position: relative; }
+
+.treeline {
+  position: absolute; }
+  .treeline img {
+    width: 100%; }
 
 body {
   color: #1ACA7F;
   margin: 0;
   padding: 0;
-  font-family: 'Fjalla One', sans-serif; }
+  font-size: 2em; }
 
 ::selection {
   background: #1ACA7F;

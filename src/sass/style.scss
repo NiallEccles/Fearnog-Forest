@@ -1,14 +1,14 @@
 @import '_fonts';
 @import '_colors';
 @import 'bootstrap';
-@import '_section';
+@import '_content';
 @import '_hero';
 
 body{
 	color:$primary-color;
 	margin:0;
 	padding:0;
-	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
 }
 
 ::selection{

@@ -1,5 +1,6 @@
 .hero{
-    height: 70vh;
+    height: 90vh;
+    position: relative;
     background-image: url('../images/tone_forest.jpg');
     background-position: center;
     background-attachment: fixed;
@@ -16,6 +17,9 @@
         from {opacity: 0;}
         to {opacity: 1;}
     }
+    h1,h2,h3,h4,h5,h6{
+        text-transform: uppercase;
+    }
     &.white {
         h1,h2,h3,h4,h5,h5,span,p{
             color:white;
@@ -27,7 +31,13 @@
         justify-content: center;
         flex-direction: column;
     }
-    hr{
-        margin: 10px 0px;
+}
+.baseline{
+    position: relative;
+}
+.treeline{
+    position: absolute;
+    img{
+        width: 100%;
     }
 }
