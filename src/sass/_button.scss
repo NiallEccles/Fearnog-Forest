@@ -1,0 +1,15 @@
+.button{
+    background: url('../images/button.svg');
+    width: 4em;
+    padding: 1em;
+    background-size: cover;
+    color:$third-color;
+    text-decoration: none;
+    transition: color 300ms ease;
+}
+
+.button:hover{
+    color:$primary-color;
+    text-decoration: none;
+    transition: color 300ms ease;
+}

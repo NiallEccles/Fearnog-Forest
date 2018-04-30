@@ -875,7 +875,6 @@ hr {
   position: relative;
   background-image: url("../images/tone_forest.jpg");
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
   background-color: #1ACA7F;
   background-blend-mode: multiply;
@@ -908,6 +907,23 @@ hr {
   position: absolute; }
   .treeline img {
     width: 100%; }
+
+.button {
+  background: url("../images/button.svg");
+  width: 4em;
+  padding: 1em;
+  background-size: cover;
+  color: #B8D3CB;
+  text-decoration: none;
+  transition: color 300ms ease; }
+
+.button:hover {
+  color: #1ACA7F;
+  text-decoration: none;
+  transition: color 300ms ease; }
+
+.full {
+  width: 100%; }
 
 body {
   color: #1ACA7F;
