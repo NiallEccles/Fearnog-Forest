@@ -862,12 +862,20 @@ hr {
 .affix {
   position: fixed; }
 
-.content {
+.content-scenery {
   background: #B8D3CB;
   color: #3F5946;
   min-height: 200px;
   padding: 3em 0; }
-  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  .content-scenery h1, .content-scenery h2, .content-scenery h3, .content-scenery h4, .content-scenery h5, .content-scenery h6 {
+    text-align: center; }
+
+.content-hiking {
+  background: #1B4041;
+  color: #1ACA7F;
+  min-height: 200px;
+  padding: 3em 0; }
+  .content-hiking h1, .content-hiking h2, .content-hiking h3, .content-hiking h4, .content-hiking h5, .content-hiking h6 {
     text-align: center; }
 
 .hero {
