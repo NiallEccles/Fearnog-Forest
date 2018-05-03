@@ -900,6 +900,9 @@ hr {
   min-height: 200px;
   padding: 1.5em 0; }
 
+.content-acknowledgement {
+  color: #3F5946; }
+
 .hero {
   height: 90vh;
   position: relative;
