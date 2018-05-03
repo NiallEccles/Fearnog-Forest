@@ -878,6 +878,28 @@ hr {
   .content-hiking h1, .content-hiking h2, .content-hiking h3, .content-hiking h4, .content-hiking h5, .content-hiking h6 {
     text-align: center; }
 
+.content-ecology {
+  background: #B8D3CB;
+  color: #3F5946;
+  min-height: 200px;
+  padding: 3em 0; }
+  .content-ecology h1, .content-ecology h2, .content-ecology h3, .content-ecology h4, .content-ecology h5, .content-ecology h6 {
+    text-align: center; }
+
+.content-video {
+  background: #1B4041;
+  color: #B8D3CB;
+  min-height: 200px;
+  padding: 3em 0; }
+  .content-video h1, .content-video h2, .content-video h3, .content-video h4, .content-video h5, .content-video h6 {
+    text-align: center; }
+
+.content-footer {
+  background: #B8D3CB;
+  color: #1B4041;
+  min-height: 200px;
+  padding: 1.5em 0; }
+
 .hero {
   height: 90vh;
   position: relative;

@@ -17,3 +17,30 @@
         text-align: center;
     }
 }
+
+.content-ecology{
+    background: $third-color;
+    color:$fourth-color;
+    min-height: 200px;
+    padding:3em 0;
+    h1,h2,h3,h4,h5,h6{
+        text-align: center;
+    }
+}
+
+.content-video{
+    background: $secondary-color;
+    color:$third-color;
+    min-height: 200px;
+    padding:3em 0;
+    h1,h2,h3,h4,h5,h6{
+        text-align: center;
+    }
+}
+
+.content-footer{
+    background: $third-color;
+    color:$secondary-color;
+    min-height: 200px;
+    padding:1.5em 0;
+}
