@@ -13,6 +13,10 @@ body{
 	font-size: 2em;
 }
 
+.container-fluid{
+	position: relative;
+}
+
 ::selection{
 	background:$primary-color;
 	color:white;
