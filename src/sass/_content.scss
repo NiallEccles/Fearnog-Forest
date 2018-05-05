@@ -3,8 +3,12 @@
     color:$fourth-color;
     min-height: 200px;
     padding:3em 0;
-    h1,h2,h3,h4,h5,h6{
+    h1,h2{
         text-align: center;
+    }
+    a{
+        color:$fourth-color; 
+        text-decoration: underline;
     }
 }
 
@@ -13,8 +17,12 @@
     color:$third-color;
     min-height: 200px;
     padding:3em 0;
-    h1,h2,h3,h4,h5,h6{
+    h1,h2{
         text-align: center;
+    }
+    a{
+        color:$third-color; 
+        text-decoration: underline;
     }
 }
 
@@ -23,8 +31,12 @@
     color:$fourth-color;
     min-height: 200px;
     padding:3em 0;
-    h1,h2,h3,h4,h5,h6{
+    h1,h2{
         text-align: center;
+    }
+    a{
+        color:$fourth-color; 
+        text-decoration: underline;
     }
 }
 
@@ -33,8 +45,12 @@
     color:$third-color;
     min-height: 200px;
     padding:3em 0;
-    h1,h2,h3,h4,h5,h6{
+    h1,h2{
         text-align: center;
+    }
+    a{
+        color:$third-color;
+        text-decoration: underline;
     }
 }
 

@@ -867,32 +867,44 @@ hr {
   color: #3F5946;
   min-height: 200px;
   padding: 3em 0; }
-  .content-scenery h1, .content-scenery h2, .content-scenery h3, .content-scenery h4, .content-scenery h5, .content-scenery h6 {
+  .content-scenery h1, .content-scenery h2 {
     text-align: center; }
+  .content-scenery a {
+    color: #3F5946;
+    text-decoration: underline; }
 
 .content-hiking {
   background: #1B4041;
   color: #B8D3CB;
   min-height: 200px;
   padding: 3em 0; }
-  .content-hiking h1, .content-hiking h2, .content-hiking h3, .content-hiking h4, .content-hiking h5, .content-hiking h6 {
+  .content-hiking h1, .content-hiking h2 {
     text-align: center; }
+  .content-hiking a {
+    color: #B8D3CB;
+    text-decoration: underline; }
 
 .content-ecology {
   background: #B8D3CB;
   color: #3F5946;
   min-height: 200px;
   padding: 3em 0; }
-  .content-ecology h1, .content-ecology h2, .content-ecology h3, .content-ecology h4, .content-ecology h5, .content-ecology h6 {
+  .content-ecology h1, .content-ecology h2 {
     text-align: center; }
+  .content-ecology a {
+    color: #3F5946;
+    text-decoration: underline; }
 
 .content-video {
   background: #1B4041;
   color: #B8D3CB;
   min-height: 200px;
   padding: 3em 0; }
-  .content-video h1, .content-video h2, .content-video h3, .content-video h4, .content-video h5, .content-video h6 {
+  .content-video h1, .content-video h2 {
     text-align: center; }
+  .content-video a {
+    color: #B8D3CB;
+    text-decoration: underline; }
 
 .content-footer {
   background: #B8D3CB;
