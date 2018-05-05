@@ -12,3 +12,25 @@
         bottom: -10px;
     }
 }
+
+.border-top{
+    position: absolute;
+    top: -5px;
+    z-index: 999;
+    width: 100%;
+    margin-left: -15px;
+    @media only screen and (max-width: 767px) {
+        top: -2px;
+    }
+}
+
+.border-bottom{
+    position: absolute;
+    bottom: -5px;
+    z-index: 999;
+    width: 100%;
+    margin-left: -15px;
+    @media only screen and (max-width: 767px) {
+        bottom: -2px;
+    }
+}

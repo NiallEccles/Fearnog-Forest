@@ -866,7 +866,7 @@ hr {
   background: #B8D3CB;
   color: #3F5946;
   min-height: 200px;
-  padding: 3em 0; }
+  padding: 1em 0; }
   .content-scenery h1, .content-scenery h2 {
     text-align: center; }
   .content-scenery a {
@@ -877,7 +877,7 @@ hr {
   background: #1B4041;
   color: #B8D3CB;
   min-height: 200px;
-  padding: 3em 0; }
+  padding: 6em 0; }
   .content-hiking h1, .content-hiking h2 {
     text-align: center; }
   .content-hiking a {
@@ -899,7 +899,7 @@ hr {
   background: #1B4041;
   color: #B8D3CB;
   min-height: 200px;
-  padding: 3em 0; }
+  padding: 6em 0; }
   .content-video h1, .content-video h2 {
     text-align: center; }
   .content-video a {
@@ -979,6 +979,26 @@ hr {
   @media only screen and (max-width: 767px) {
     .treeline {
       bottom: -10px; } }
+
+.border-top {
+  position: absolute;
+  top: -5px;
+  z-index: 999;
+  width: 100%;
+  margin-left: -15px; }
+  @media only screen and (max-width: 767px) {
+    .border-top {
+      top: -2px; } }
+
+.border-bottom {
+  position: absolute;
+  bottom: -5px;
+  z-index: 999;
+  width: 100%;
+  margin-left: -15px; }
+  @media only screen and (max-width: 767px) {
+    .border-bottom {
+      bottom: -2px; } }
 
 body {
   color: #1ACA7F;
