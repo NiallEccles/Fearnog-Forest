@@ -1,11 +1,9 @@
 .hero{
     height: 90vh;
     position: relative;
-    background-image: url('../images/tone_forest.jpg');
     background-position: center;
     background-size: cover;
     background-color: $primary-color;
-    background-blend-mode: multiply;
     opacity: 0;
     text-align: center;
     animation-name: fadeUp;
@@ -19,6 +17,9 @@
     h1,h2,h3,h4,h5,h6{
         text-transform: uppercase;
     }
+    &.filter{
+        background-blend-mode: multiply;
+    }
     &.white {
         h1,h2,h3,h4,h5,h5,span,p{
             color:white;
@@ -28,6 +29,22 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+    }
+    &.small{
+        height: 60vh;
+    }
+    &.divider{
+        h1,h2,h3,h4,h5,h6{
+            margin-bottom: 2em;
+        }  
+    }
+    &.left{
+        text-align: left;
+        display: flex;
+        align-self: flex-end;
+        align-items: flex-end;
+        justify-content: flex-end;
         flex-direction: column;
     }
 }
