@@ -1,3 +1,14 @@
+.content{
+    background: $third-color;
+    color:$fourth-color;
+    min-height: 200px;
+    padding:6em 0;
+    a{
+        color:$fourth-color; 
+        text-decoration: underline;
+    }
+}
+
 .content-scenery{
     background: $third-color;
     color:$fourth-color;

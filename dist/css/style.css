@@ -862,6 +862,15 @@ hr {
 .affix {
   position: fixed; }
 
+.content {
+  background: #B8D3CB;
+  color: #3F5946;
+  min-height: 200px;
+  padding: 6em 0; }
+  .content a {
+    color: #3F5946;
+    text-decoration: underline; }
+
 .content-scenery {
   background: #B8D3CB;
   color: #3F5946;
