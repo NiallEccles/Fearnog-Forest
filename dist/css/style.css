@@ -5,6 +5,10 @@ h1, h2, h3, h4, h5, h6 {
 span, p {
   font-family: 'Cantarell', sans-serif; }
 
+a.title-link h1, a.title-link h2, a.title-link h3 {
+  color: #1B4041;
+  text-decoration: none; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2018 Twitter, Inc.
